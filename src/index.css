@@ -1,5 +1,71 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+* {
+  border: 0px solid red;
+}
+
 body {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
+  background-color: #eee;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+#title {
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: gray;
+  padding: 1em;
+  font-size: small;
+}
+
+#text {
+  padding-top: 1em;
+}
+
+#text, #author {
+  font-family: "EB Garamond", sans-serif;
+  font-weight: 100;
+}
+
+#quote-container {
+  margin: 2em;
+  height: 90vh;
+  background-color: white;
+  border-radius: 2px;
+}
+
+#quote-box {
+  margin: 1em;
+  height: 50vh;
+  max-width: 400px;
+  display: inline-block;
+}
+
+#tweet-quote, #twitter-icon {
+  text-decoration: none;
+  border: 1px solid #55ACEE;
+  color: white;
+  background-color: #55ACEE;
+  font-size: x-small;
+  border-radius: 2px;
+}
+
+#new-quote {
+  font-weight: 100;
+  margin: 2em;
+  height: 3em;
+  width: 20em;
+  background-color: #68caa0;
+  color: white;
+  border: 1px solid #eee;
+  border-radius: 2px;
+}
+
+#disclaimer * {
+  margin-top: 2em;
+  font-size: xx-small;
+  color: gray;
 }
