@@ -1,8 +1,8 @@
 {
-  "name": "random-quote-machine-2",
+  "name": "random-quote-machine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hnryjmes.github.io/random-quote-machine-2",
+  "homepage": "https://hnryjmes.github.io/random-quote-machine",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
